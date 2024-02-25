@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+    width: 100%;
+}
+
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -22,4 +26,10 @@ code {
     font-family: 'Nunito';
     src: url('./font/Nunito-BoldItalic.ttf') format('truetype');
     font-weight: bold;
+}
+
+@font-face {
+    font-family: 'VT323';
+    src: url('./font/VT323-Regular.ttf') format('truetype');
+    font-weight: normal;
 }
