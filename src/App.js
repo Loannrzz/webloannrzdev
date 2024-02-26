@@ -1,4 +1,3 @@
-
 import "./style/app.scss"
 import HelloWordAnnim from "./HelloWordAnnim";
 import PorteFolioWebSite from "./PorteFolioWebSite";
@@ -11,7 +10,7 @@ function App() {
 
     const pages_link = {
         hello_world: <HelloWordAnnim set_page={setPage}/>,
-        portfolio_website: <PorteFolioWebSite set_page={setPage}/>,
+        portfolio_website: <PorteFolioWebSite set_page={setPage} />,
         home_page: <HomePage set_page={setPage}/>,
     }
 
